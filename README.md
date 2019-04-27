@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/insukChoi/community.svg?branch=master)](https://travis-ci.org/insukChoi/community)
+[![Coverage Status](https://coveralls.io/repos/github/insukChoi/community/badge.svg?branch=master)](https://coveralls.io/github/insukChoi/community?branch=master)
 
 # community
 스프링 부트 스터디
