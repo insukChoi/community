@@ -21,3 +21,5 @@
 ## Reference
 
 [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/html)
+
+[Mock vs Stub](https://adamcod.es/2014/05/15/test-doubles-mock-vs-stub.html)
