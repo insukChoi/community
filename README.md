@@ -24,3 +24,9 @@
 [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/html)
 
 [Mock vs Stub](https://adamcod.es/2014/05/15/test-doubles-mock-vs-stub.html)
+
+[coveralls-gradle-plugin (https://github.com/kt3k/coveralls-gradle-plugin)](https://github.com/kt3k/coveralls-gradle-plugin)
+
+[Travis CI (https://travis-ci.org)](https://travis-ci.org)
+
+[Coveralls (https://coveralls.io)](https://coveralls.io/)
