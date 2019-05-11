@@ -1,0 +1,18 @@
+server:
+  port: 9091
+
+# 로깅
+logging:
+  level:
+    root: info
+    org.springframework.boot.web: debug
+
+spring:
+  # jconsole admin
+  application:
+    admin:
+      enabled: true
+  # Live Reload
+  devtools:
+    livereload:
+      enabled: true

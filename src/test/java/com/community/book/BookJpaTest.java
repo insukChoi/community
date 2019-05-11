@@ -27,6 +27,7 @@ public class BookJpaTest {
     @Autowired
     private BookRepository bookRepository;
 
+
     @Test
     public void Book저장하기_테스트() {
         Book book = Book.builder().title(BOOT_TEST_TITLE).publishedAt(LocalDateTime.now()).build();
