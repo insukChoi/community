@@ -30,3 +30,7 @@
 [Travis CI (https://travis-ci.org)](https://travis-ci.org)
 
 [Coveralls (https://coveralls.io)](https://coveralls.io/)
+
+[Thymeleaf Reference](https://www.thymeleaf.org/doc/articles/standarddialect5minutes.html)
+
+[Template Engine?](https://gmlwjd9405.github.io/2018/12/21/template-engine.html)
