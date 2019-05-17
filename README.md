@@ -23,6 +23,8 @@
 
 [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/html)
 
+[Gradle Docs](https://docs.gradle.org/current/userguide/getting_started.html)
+
 [Mock vs Stub](https://adamcod.es/2014/05/15/test-doubles-mock-vs-stub.html)
 
 [coveralls-gradle-plugin (https://github.com/kt3k/coveralls-gradle-plugin)](https://github.com/kt3k/coveralls-gradle-plugin)
@@ -34,3 +36,9 @@
 [Thymeleaf Reference](https://www.thymeleaf.org/doc/articles/standarddialect5minutes.html)
 
 [Template Engine?](https://gmlwjd9405.github.io/2018/12/21/template-engine.html)
+
+[Oauth2-facebook](https://developers.facebook.com/apps)
+
+[Oauth2-google](https://console.cloud.google.com)
+
+[Oauth2-kakao](https://developers.kakao.com/apps)
