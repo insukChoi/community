@@ -21,6 +21,7 @@ public class BootWebApplication {
 
     @Bean
     public CommandLineRunner runner(UserRepository userRepository, BoardRepository boardRepository) throws Exception{
+        System.out.println("EXEC CommandLineRunner ~~~!");
         return args -> {
             User user = userRepository.save(User.builder()
                     .name("havi")
@@ -32,8 +33,8 @@ public class BootWebApplication {
 
             IntStream.rangeClosed(1, 200).forEach(index ->
                     boardRepository.save(Board.builder()
-                            .title("게시글"+index)
-                            .subTitle("순서"+index)
+                            .title("게시글" + index)
+                            .subTitle("순서" + index)
                             .content("컨텐츠")
                             .boardType(BoardType.free)
                             .createdDate(LocalDateTime.now())

@@ -21,8 +21,18 @@ public class BoardService {
         return boardRepository.findAll(pageable);
     }
 
-    public Board findBoardByIdx(Long idx){
+    public Board findBoardByIdx(Long idx) {
         return boardRepository.findById(idx).orElse(new Board());
     }
+
+    /*public Page<Board> findBoardList(Pageable pageable){
+        pageable = PageRequest.of(pageable.getPageNumber() <= 0 ? 0 : pageable.getPageNumber() -1
+                , pageable.getPageSize());
+        return boardRepository.findAll(pageable);
+    }
+
+    public Board findBoardByIdx(Long idx){
+        return boardRepository.findById(idx).orElse(new Board());
+    }*/
 }
 

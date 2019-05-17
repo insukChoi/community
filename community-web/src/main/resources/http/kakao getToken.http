@@ -1,0 +1,17 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+POST https://kauth.kakao.com/oauth/token
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded;charset=utf-8
+
+grant_type=authorization_code
+client_id=ee496cdbb5fd7909d0b309ec6be6abc2
+code=t0-Q72NkYeYI0rAd4avXttkT7tEpbLFNpLqa5_hTNJRKcEKC8-TPQ_-tOGCC0MbeUTedJAo9dNkAAAFqxLKb2g
+redirect_uri=http://localhost:9091/login/kakao
+
+###
