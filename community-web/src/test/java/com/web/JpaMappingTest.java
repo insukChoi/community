@@ -6,6 +6,7 @@ import com.web.domain.enums.BoardType;
 import com.web.repository.BoardRepository;
 import com.web.repository.UserRepository;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,7 @@ import java.time.LocalDateTime;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
+@Ignore
 @RunWith(SpringRunner.class)
 @DataJpaTest
 public class JpaMappingTest {
