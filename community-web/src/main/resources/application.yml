@@ -4,7 +4,7 @@ server:
 # 로깅
 logging:
   level:
-    root: debug
+    root: info
     org.springframework.boot.web: debug
     org.apache.http: debug
 
