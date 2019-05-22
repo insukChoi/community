@@ -17,34 +17,18 @@ spring:
   devtools:
     livereload:
       enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 2519806724913652
+            client-secret: 943787cb86a73813d46c7f7a6a8ca792
+          google:
+            client-id: 699135992487-jqptvth4qddl6cu6mk0240pp95vun4v6.apps.googleusercontent.com
+            client-secret: 20UD_HTOZs4Qu5eRQd2AguKt
 
-
-facebook:
-  client:
-    clientId: 2519806724913652
-    clientSecret: 943787cb86a73813d46c7f7a6a8ca792
-    accessTokenUri: https://graph.facebook.com/oauth/access_token
-    userAuthorizationUri: https://www.facebook.com/dialog/oauth?display=popup
-    tokenName: oauth_token
-    authenticationScheme: query
-    scope: email
-  resource:
-    userInfoUri: https://graph.facebook.com/me?fields=id,name,email,link
-
-google:
-  client:
-    clientId: 699135992487-jqptvth4qddl6cu6mk0240pp95vun4v6.apps.googleusercontent.com
-    clientSecret: 20UD_HTOZs4Qu5eRQd2AguKt
-    accessTokenUri: https://accounts.google.com/o/oauth2/token
-    userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
-    scope: email, profile
-  resource:
-    userInfoUri: https://www.googleapis.com/oauth2/v2/userinfo
-
-kakao:
-  client:
-    clientId: ee496cdbb5fd7909d0b309ec6be6abc2
-    accessTokenUri: https://kauth.kakao.com/oauth/token
-    userAuthorizationUri: https://kauth.kakao.com/oauth/authorize
-  resource:
-    userInfoUri: https://kapi.kakao.com/v1/user/me
+custom:
+  oauth2:
+    kakao:
+      client-id: ee496cdbb5fd7909d0b309ec6be6abc2
